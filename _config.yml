@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Gergely Odor's Research Website"
 title_separator          : "-"
 name                     : &name "Gergely Odor"
-description              : &description "personal description"
+description              : &description "Gergely Odor's Research Website"
 url                      : https://odotgergo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "odotgergo/odotgergo.github.io"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Gergely Ódor"
+  avatar           : "profile.jpg"
+  bio              : "SNSF Postdoc Mobility Fellow<br>hosted by <a href='https://www.martonkarsai.com'>Mátron Karsai</a><br><br>My research interests are at the interface of probability theory, theoretical computer science and network science.<br><br>English: I go by <b>Greg</b>.<br>Hungarian: I go by <b>Gergő</b>."
+  location         : "CEU, Vienna"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.hu/citations?user=cQNLJD8AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "odorgergo"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "gergely-odor-6034a7150"
+  orcid            : "https://orcid.org/0000-0001-9139-249X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "odorgergo"
   vine             :
   weibo            :
   xing             :
@@ -191,17 +191,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
